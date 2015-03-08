@@ -117,16 +117,4 @@ public class Searcher {
         return respuestas;
     }
 
-    public static void main(String args[]) {
-        Searcher s = new Searcher();
-        if (args.length == 2) {
-            String busqueda = args[0];
-            String indexPath = args[1];
-            s.Buscador(busqueda, indexPath);
-        } else {
-            System.out.println("Requiere dos valores para poder ejecutarse");
-        }
-
-    }
-
 }
