@@ -32,3 +32,15 @@ El Searcher utiliza las siguientes dependencias:
 - lucene-core-4.9.0
 - lucene-highlighter-4.9.0
 - lucene-queryparser-4.9.0
+
+##Conversor a TXT
+El conversor a txt utiliza la habilidad de lectura de cualquier tipo de documento del proyecto Tika para 
+extraer la información y copiarla sobre un archivo plano.
+
+El conversor a txt es una única función sin retorno (o void) que recibe dos parámetros `docsPath` y 
+`docTextPath`.
+
+- `docsPath` hace referencia al directorio donde están contenidos los documentos que se desean convertir a 
+texto plano.
+-  `docTextPath` hace referencia al directorio donde se desean guardar las los archivos convertidos a 
+texto plano.
