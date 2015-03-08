@@ -44,3 +44,7 @@ El conversor a txt es una única función sin retorno (o void) que recibe dos pa
 texto plano.
 -  `docTextPath` hace referencia al directorio donde se desean guardar las los archivos convertidos a 
 texto plano.
+
+El ConvertisorTxt utiliza la dependencia:
+
+- tika-app-1.6
