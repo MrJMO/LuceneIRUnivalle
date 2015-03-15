@@ -28,10 +28,10 @@ que recibe dos parametros `busqueda` y `indexPath` (en este orden).
 
 El Searcher utiliza las siguientes dependencias:
 
-- lucene-analyzers-common-4.9.0
-- lucene-core-4.9.0
-- lucene-highlighter-4.9.0
-- lucene-queryparser-4.9.0
+- `lucene-analyzers-common-4.9.0`
+- `lucene-core-4.9.0`
+- `lucene-highlighter-4.9.0`
+- `lucene-queryparser-4.9.0`
 
 ##Conversor a TXT
 El conversor a txt utiliza la habilidad de lectura de cualquier tipo de documento del proyecto Tika para 
@@ -47,4 +47,4 @@ texto plano.
 
 El ConvertisorTxt utiliza la dependencia:
 
-- tika-app-1.6
+- `tika-app-1.6`
